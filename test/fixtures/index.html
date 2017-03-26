@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>context-modal</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body style="margin: 0">
+
+  <h1 style="text-align:center">ContextModal</h1>
+  <div class="container">
+    <div class="item">
+      <div data-context-modal-for="menu" class="menu-button">Like context menu</div>
+      <div id="like-context-menu" data-context-modal-id="menu" class="context-modal" style="display:none">
+        <ul>
+          <li>foofoofoo
+          <li>barbarbar
+          <li>bazbazbaz
+        </ul>
+      </div>
+    </div>
+    <div class="item">
+      <div data-context-modal-for="dropdown" data-context-modal-offset="left-bottom" data-context-modal-transition-for-onhide=".2s" class="menu-button">Like dropdown</div>
+      <div id="like-dropdown" data-context-modal-id="dropdown" class="context-modal like-dropdown" style="display:none">
+        <ul>
+          <li>foofoofoo
+          <li>barbarbar
+          <li>bazbazbaz
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="/scripts/context-modal.js"></script>
+  <script src="/index.js"></script>
+</body>
+</html>
