@@ -1,6 +1,6 @@
 {
   "name": "context-modal",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Display related elements with axis of trigger element",
   "main": "dist/context-modal.umd.js",
   "jsnext:main": "dist/context-modal.es.js",
