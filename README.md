@@ -42,6 +42,13 @@ That is, `[data-context-modal-id=foo]` will be shown using something of `[data-c
 
 The trigger is `click` by default, but you can change only that element by adding `data-context-modal-event-type`.
 
+Also, by default, the top left of the modal comes to the position you clicked. If you want to fix this somewhere else (eg bottom-left), add `data-context-menu-offset` to `[data-context-menu-for]` element. The following values can be specified for this.
+
+- `left-top`
+- `left-bottom`
+- `right-top`
+- `right-bottom`
+
 ```js
 // For es
 import ContextModal from 'context-modal';
